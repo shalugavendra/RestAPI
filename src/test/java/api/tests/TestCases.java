@@ -39,7 +39,7 @@ public class TestCases {
         String from = "shalugavendra@gmail.com";
         String subject = "Sending Report after Execution";
         String text = "This is a example.";
-        File file = new File("C:\\Users\\sheet\\IdeaProjects\\RestAPI\\Test-Report.html");
+        File file = new File("RestAPI\\Test-Report.html");
 
         boolean b = sender.sendEmail(to, from, subject, text, file);
         if (b) {
